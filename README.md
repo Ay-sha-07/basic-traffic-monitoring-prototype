@@ -2,6 +2,7 @@
 A basic traffic monitoring and adaptive signal simulation prototype using Python and  OpenCV. 
 
 TASK:
+
 • Load a traffic intersection video  
 • Detect and count vehicles (use YOLO based models for detection and 
 SORT/DeepSORT for tracking) 
