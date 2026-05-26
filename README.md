@@ -15,8 +15,6 @@ A basic traffic monitoring and adaptive signal simulation prototype using Python
 
 The developed prototype implements an intelligent traffic monitoring and adaptive signal control system using Python, OpenCV, YOLOv8, and SORT tracking. The system processes a traffic intersection video to detect vehicles, estimate traffic density, generate congestion warnings, and dynamically allocate adaptive green signal timing.
 
----
-
 ## Methodology Workflow
 
 ```text id="cv9vl0"
@@ -37,8 +35,6 @@ Adaptive Signal Timing
 Output Visualization
 ```
 
----
-
 ## 1. Traffic Video Input
 
 * A traffic intersection video was provided as input.
@@ -49,8 +45,6 @@ Output Visualization
 
 * Python
 * OpenCV
-
----
 
 ## 2. Vehicle Detection using YOLOv8
 
@@ -74,8 +68,6 @@ Output Visualization
 * High detection accuracy
 * Suitable for intelligent traffic systems
 
----
-
 ## 3. Vehicle Tracking using SORT
 
 * SORT (Simple Online Realtime Tracking) was used for multi-object tracking.
@@ -91,8 +83,6 @@ Output Visualization
 
 * Each vehicle received a unique tracking ID.
 * Vehicle movement was tracked continuously.
-
----
 
 ## 4. Vehicle Counting and Density Estimation
 
@@ -111,7 +101,6 @@ Output Visualization
 | 5–9           | Medium        |
 | ≥ 10          | High          |
 
----
 
 ## 5. Congestion Warning System
 
@@ -128,8 +117,6 @@ Vehicle Count > 10
 ```text id="rrv8h4"
 CONGESTION ALERT!
 ```
-
----
 
 ## 6. Adaptive Traffic Signal Timing
 
@@ -155,7 +142,6 @@ Adaptive Green Time = MIN_GREEN + (Vehicle Count × 2)
 | Inefficient during peak traffic | Better traffic flow    |
 | Higher waiting time             | Reduced waiting time   |
 
----
 
 # Demo of the Developed Code
 
@@ -169,14 +155,10 @@ The demonstration shows:
 * congestion detection,
 * adaptive signal timing.
 
----
-
 ## Step 1 — Input Traffic Video
 
 * A traffic intersection video was loaded into the system.
 * The video contained multiple moving vehicles in urban traffic conditions.
-
----
 
 ## Step 2 — Vehicle Detection
 
@@ -189,8 +171,6 @@ The demonstration shows:
 * Motorcycles
 * Buses
 * Trucks
-
----
 
 ## Step 3 — Vehicle Tracking
 
@@ -206,8 +186,6 @@ ID: 3
 
 * Tracking ensured consistent monitoring across frames.
 
----
-
 ## Step 4 — Vehicle Counting and Density Estimation
 
 * Vehicle count was calculated for each frame.
@@ -220,8 +198,6 @@ Vehicles: 12
 Density: High
 ```
 
----
-
 ## Step 5 — Congestion Warning Display
 
 * When traffic density exceeded the threshold, the system displayed:
@@ -231,8 +207,6 @@ CONGESTION ALERT!
 ```
 
 * This indicated heavy traffic congestion at the intersection.
-
----
 
 ## Step 6 — Adaptive Signal Timing
 
@@ -247,8 +221,6 @@ Adaptive Green: 34s
 
 * Higher traffic density received longer green duration.
 
----
-
 ## Step 7 — Output Video Generation
 
 * The processed frames were saved into an output video.
@@ -260,8 +232,6 @@ Adaptive Green: 34s
   * congestion alerts,
   * adaptive signal timing.
 
----
-
 # Output Observations and Findings
 
 ## 1. Vehicle Detection Performance
@@ -270,35 +240,25 @@ Adaptive Green: 34s
 * Detection performance was accurate for most vehicles in normal lighting conditions.
 * Bounding boxes clearly identified vehicles in each frame.
 
----
-
 ## 2. Vehicle Tracking Performance
 
 * SORT tracking maintained unique IDs for vehicles across frames.
 * Tracking reduced duplicate counting and improved traffic monitoring reliability.
-
----
 
 ## 3. Traffic Density Estimation
 
 * The system successfully classified traffic conditions into low, medium, and high density.
 * Traffic density increased significantly during crowded traffic scenes.
 
----
-
 ## 4. Congestion Detection
 
 * Congestion alerts were generated whenever vehicle count exceeded the threshold.
 * The warning system effectively identified highly congested traffic conditions.
 
----
-
 ## 5. Adaptive Signal Timing Performance
 
 * Adaptive signal timing dynamically increased green signal duration during heavy traffic conditions.
 * During low-density traffic, green signal duration remained shorter, reducing unnecessary waiting.
-
----
 
 ## 6. Fixed-Time vs Adaptive Signal Analysis
 
@@ -310,7 +270,6 @@ Adaptive Green: 34s
 | Congestion Handling     | Inefficient       | Improved        |
 | Traffic Flow Efficiency | Moderate          | Higher          |
 
----
 
 ## 7. Key Findings
 
@@ -318,15 +277,11 @@ Adaptive Green: 34s
 * Adaptive traffic signal control improved responsiveness to changing traffic conditions.
 * Vehicle tracking and density estimation enhanced congestion analysis accuracy.
 
----
-
 ## 8. Limitations
 
 * The current implementation supports only a single traffic intersection.
 * Reinforcement learning and swarm intelligence optimization are not yet implemented.
 * Detection accuracy may decrease in highly crowded or low-visibility environments.
-
----
 
 # Conclusion
 
