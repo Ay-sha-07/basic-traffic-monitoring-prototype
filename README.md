@@ -2,12 +2,12 @@
 A basic traffic monitoring and adaptive signal simulation prototype using Python and  OpenCV. 
 
 ### Screenshots:
-<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/e5f124c6-0e20-4749-921a-726c335a793b" />
-<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/1190f2c5-4b31-4f08-898c-6694013ba3ea" />
-<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/9e09589e-e8c8-42e5-abac-8f2ec1146d4d" />
-<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/0f6d9717-cdd1-4f72-8093-3d407c29146d" />
-<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/a01052ea-7cfe-48d4-98e7-e39ab98dbe65" />
-<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/2abce86b-e645-46f2-9d91-f3ba3730a733" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/e5f124c6-0e20-4749-921a-726c335a793b" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/1190f2c5-4b31-4f08-898c-6694013ba3ea" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/9e09589e-e8c8-42e5-abac-8f2ec1146d4d" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/0f6d9717-cdd1-4f72-8093-3d407c29146d" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/a01052ea-7cfe-48d4-98e7-e39ab98dbe65" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/2abce86b-e645-46f2-9d91-f3ba3730a733" />
 
 # Implementation Methodology
 
