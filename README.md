@@ -97,9 +97,9 @@ Output Visualization
 
 | Vehicle Count | Density Level |
 | ------------- | ------------- |
-| < 5           | Low           |
-| 5–9           | Medium        |
-| ≥ 10          | High          |
+| < 3           | Low           |
+| 3–5           | Medium        |
+| ≥ 5           | High          |
 
 
 ## 5. Congestion Warning System
@@ -109,7 +109,7 @@ Output Visualization
 ### Congestion Threshold
 
 ```text id="zvl55i"
-Vehicle Count > 10
+Vehicle Count > 5
 ```
 
 ### Output Warning
